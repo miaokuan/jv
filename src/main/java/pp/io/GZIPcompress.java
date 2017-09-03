@@ -12,12 +12,14 @@ import java.util.zip.GZIPOutputStream;
 public class GZIPcompress {
 	public static void main(String[] args) {
 		try {
-			BufferedReader in = new BufferedReader(new FileReader(args[0]));
+		    String filename = "test.txt";
+			BufferedReader in = new BufferedReader(new FileReader(filename));
 			BufferedOutputStream out = new BufferedOutputStream(new GZIPOutputStream(new FileOutputStream("test.gz")));
 			System.out.println("Writing file");
 			int c;
-			while ((c = in.read()) != -1)
+			while ((c = in.read()) != -1) {
 				out.write(c);
+			}
 			in.close();
 			out.close();
 			System.out.println("Reading file");

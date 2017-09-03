@@ -19,7 +19,7 @@ public class f1 {
 		
 		
 		Date date = new Date();
-		String df = "YYYY-MM-dd HH:mm:ss";
+		String df = "YYYY-MM-dd'T'HH:mm:ssXXX";
 		SimpleDateFormat sdf = new SimpleDateFormat(df);
 		String ds = sdf.format(date);
 		System.out.println(ds);
