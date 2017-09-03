@@ -1,0 +1,12 @@
+INFO main pp.log.Log4jTest - Hello SLF4J
+INFO main pp.log.Log4jTest - hello ereryone
+INFO main pp.log.Log4jTest - Hello SLF4J
+INFO main pp.log.Log4jTest - hello ereryone
+INFO main pp.log.Log4jTest - Hello SLF4J
+INFO main pp.log.Log4jTest - hello ereryone
+INFO main pp.log.Log4jTest - Hello SLF4J
+INFO main pp.log.Log4jTest - hello ereryone
+WARN main pp.log.Log4jTest - chudashile
+INFO main pp.log.Log4jTest - Hello SLF4J
+INFO main pp.log.Log4jTest - hello ereryone
+WARN main pp.log.Log4jTest - chudashile
